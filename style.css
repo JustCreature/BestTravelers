@@ -1,0 +1,105 @@
+@font-face{font-family:'Calluna';
+ src:url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/callunasansregular-webfont.woff') format('woff');
+}
+
+body {
+  text-align: center;
+  color: white;
+  background-color: rgba(236, 235, 235, 0.836);
+  /* font-family: Calluna;
+  format(woff); */
+}
+
+.hat {
+  background-color: navy;
+  padding: 20px 0px;
+  align-items: center;
+}
+
+.hat p {
+  display: inline;
+}
+
+.hat #logoName {
+  font-size: 1.8em;
+  display: inline;
+  margin-right: 80px;
+}
+
+.hat #logoName:hover {
+  background-color: navy;
+}
+
+.hat a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px;
+}
+
+.hat a:hover {
+  background-color:rgb(21, 21, 109);
+}
+
+h1 {
+  font-size: 5em;
+  color: navy;
+}
+
+.logo {
+  padding: 150px 0px;
+  margin: 0px 0px;
+  background-color: gray;
+  background-image: url(1.jpg);
+  background-size: 10% cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logContainer {
+  background-color: rgba(118, 176, 252, 0.678);
+  padding: 10px 0px;
+  padding-bottom: 50px;
+}
+
+#logButs p{
+  display: inline;
+  margin: 10px 10px;
+}
+
+#logpasinput p{
+  display: inline;
+  margin: 0px 20px;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+#description {
+  color: black;
+  font-size: 1.2em;
+  margin: 0px 300px;
+}
+
+#start {
+  background-color: rgba(118, 176, 252, 0.678);
+  padding: 10px 0px;
+}
+
+#buthatlog {
+  padding: 10px 100px;
+  margin: 100px 10px;
+  background-color: rgb(59, 83, 189);
+  border-radius: 12px 2px;
+  box-shadow: 0px 1px 6px 0px;
+}
+
+#buthatjoin {
+  padding: 10px 100px;
+  margin: 100px 10px;
+  background-color: rgb(0, 162, 255);
+  border-radius: 12px 2px;
+  box-shadow: 0px 1px 6px 0px;
+}
