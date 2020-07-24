@@ -51,7 +51,7 @@ h1 {
   padding: 150px 0px;
   margin: 0px 0px;
   background-color: gray;
-  background-image: url(Без названия.jpg);
+  background-image: url("Без названия.jpg");
   background-size: 10% cover;
   background-position: center;
   background-repeat: no-repeat;
